@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="css/viaje.css" type="text/css" media="all" />
+
+    </head>
+    <body>
+        
+        <div class="container">  
+  <form  class ="contact"   id="contact" action="" method="post">
+    
+    <h4>Ingrese datos del viaje</h4>
+    <fieldset>
+     <label for="fecha">fecha:</label>
+      <input placeholder="Ingrese fecha" type="date"  tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+    <label for="origen">Origen:</label>
+    <input placeholder="Ingrese origen" type="text" tabindex="2" required autofocus>
+    </fieldset>
+    <fieldset>
+      <label for="destino">Destino:</label>
+      <input placeholder="Ingrese destino" type="text" tabindex="3" required autofocus>
+    </fieldset>
+    <fieldset>
+        <label for="hora">Hora:</label>
+      <input placeholder="Hora"  type="time" name="hora"  max="22:30" min="01:00"  tabindex="4" required>
+    </fieldset>
+    <fieldset>
+        <label for="cupo">No.Ocupantes:</label>
+      <input  type="number" name="cupo"  max="2" min="1" tabindex="5" required>
+    </fieldset>
+    <fieldset>
+        
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
+       
+    </body>
+</html>

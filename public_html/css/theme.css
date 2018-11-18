@@ -1,0 +1,22 @@
+nav,aside,section,header,footer {
+    display: block;
+}
+
+body{
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 940px;
+    background: #f0f0f0;
+    font: 15px Arial,helvetica;
+ 
+}
+h1{
+    font-size: 28px;
+    line-height: 12px;
+    padding:10px 0;
+}
+h2{
+    font-size: 12px;
+    line-height: 5px;
+    padding:15px 0;
+}
